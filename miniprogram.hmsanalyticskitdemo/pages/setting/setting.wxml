@@ -1,0 +1,15 @@
+<!--pages/setting/setting.wxml-->
+<view class="main">
+  <view class="main-head">
+    <span class="head-title">SETTING</span>
+    <view>
+      <button size="mini" class="button-class mr20" bindtap="save">CONFIRM</button>
+    </view>
+  </view>
+  <view class="main-content">
+    <view class="input-item">
+      <label>Favorite Sport:</label>
+      <input type="text" placeholder="Please Enter Your Favorite Sport" bindblur="inputChange" />
+    </view>
+  </view>
+</view>

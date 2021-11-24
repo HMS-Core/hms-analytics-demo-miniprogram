@@ -1,0 +1,23 @@
+<!--pages/result/result.wxml-->
+  <view class="main">
+    <view class="main-head">
+      <span class="head-title">POST SCORE</span>
+      <button size="mini" class="button-class mr20" bindtap="goBack">BACK</button>
+    </view>
+    <view class="main-content">
+      <view class="title">YOUR POST SCORE: <span class="score-num">{{score}}</span> POINTS</view>
+      <view class="score-lists">
+        <view class="score-item" wx:for="{{questions}}" wx:for-index="index" wx:for-item="question">
+          <view class="question">{{index + 1}}.{{question}}</view>
+          <view class="input-wrap">
+            <radio type="radio" :name="question" checked="{{userAnswers[index] == 1}}" disabled="true" />true
+            <radio type="radio" class="ml20" :name="question" checked="{{userAnswers[index] == 0}}" disabled="true" />false
+          </view>
+          <view class="answer">ANSWER: 
+            <span class="answer-true" wx:if="{{answers[index]}}">{{answers[index]}}</span>
+            <span class="answer-false" wx:else>{{answers[index]}}</span>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>

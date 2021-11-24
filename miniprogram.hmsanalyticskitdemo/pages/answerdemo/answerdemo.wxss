@@ -1,0 +1,21 @@
+/* pages/AnswerDemo.wxss */
+.txt {
+  font-size: 24rpx;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.operation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.post-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-answer {
+  min-width: 200rpx;
+}

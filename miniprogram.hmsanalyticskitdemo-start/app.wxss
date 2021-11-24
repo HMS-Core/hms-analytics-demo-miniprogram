@@ -1,0 +1,110 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rrpx 0;
+  box-sizing: border-box;
+} 
+/*
+ * Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(245, 245, 245, 1);
+  height: 100%;
+}
+
+.mr20 {
+  margin-right: 20rpx;
+}
+
+.ml20 {
+  margin-left: 20rpx;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  height: calc(100% - 100rpx);
+}
+
+.main-head {
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-title {
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  color: #36383c;
+  font-weight: bold;
+}
+
+.button-class {
+  background: rgba(160, 207, 255, 1);
+  color: #fff;
+}
+
+.button-class:hover,
+.button-class.hover {
+  background-color: rgba(64, 158, 255, 1);
+}
+
+.btn-gray {
+  background: rgba(189, 189, 189, 1);
+}
+
+.btn-icon {
+  display: inline-block;
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 5rpx;
+  position: relative;
+  top: 5rpx;
+}
+
+.icon-set {
+  width: 24rpx;
+  height: 24rpx;
+}
+
+.icon-post {
+  width: 24rpx;
+  height: 24rpx;
+}
+
+.main-content {
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 8rpx;
+  box-shadow: 0 0 12rpx 0 rgba(0, 0, 0, 0.1);
+  padding: 40rpx 70rpx;
+  min-height: 600rpx;
+}
+
+.main-content .title {
+  font-weight: 700;
+  font-size: 24rpx;
+  margin-bottom: 40rpx;
+}

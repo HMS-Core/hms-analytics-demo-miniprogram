@@ -1,0 +1,27 @@
+/* pages/setting/setting.wxss */
+.input-item {
+  margin-bottom: 30rpx;
+}
+
+label {
+  /* width: 300rpx; */
+  text-align: right;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+
+input[type="text"] {
+  margin-top: 20rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  border-radius: 4rpx;
+  width: 550rpx;
+  padding: 0 12rpx;
+  border: 1rpx solid #aaa;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus {
+  border-color: rgba(0, 125, 255, 1);
+  outline: none;
+}

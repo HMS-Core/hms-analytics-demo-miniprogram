@@ -1,0 +1,25 @@
+<view class="main">
+  <view class="main-head">
+    <span class="head-title">ANSWER THE QUESTIONS</span>
+    <view class="btns-wrap">
+      <button size="mini" class="button-class btn-gray btn-set mr20" bindtap="showSettingMenu">
+        <image src="/img/setting.png" class="icon-set"></image>SETTINGS
+      </button>
+    </view>
+  </view>
+  <view class="main-content" wx:if="{{!answerFinished}}">
+    <view class="title">Question {{currentNumber + 1}} / 5:</view>
+    <view class="txt">{{questions[currentNumber]}}</view>
+    <view class="operation">
+      <button size="mini" class="button-class btn-answer" bindtap="checkAnswer" data-answer="{{true}}">TRUE</button>
+      <button size="mini" class="button-class btn-answer" bindtap="checkAnswer" data-answer="{{false}}">FALSE</button>
+    </view>
+  </view>
+  <view class="main-content post-content" wx:else>
+    <view class="operation">
+      <button class="button-class btn-post" bindtap="postScore">
+        <image src="/img/up.png" class="icon-post"></image>POST SCORE
+      </button>
+    </view>
+  </view>
+</view>
