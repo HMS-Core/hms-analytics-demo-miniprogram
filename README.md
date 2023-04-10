@@ -39,7 +39,7 @@ Create an app in AppGallery Connect, obtain the **agconnect-services.json** file
 2. Enable the npm function. Click [here](https://developers.weixin.qq.com/miniprogram/en/dev/devtools/npm.html) to view the details.
 3. Run the following command to install the dependency:
     ```bash
-    npm install --save @hmscore/analytics-sdk-miniprogram
+    npm install --save @hw-hmscore/analytics-sdk-miniprogram
     ```
 4. Go to **Tools** > **Build npm** to build the dependency of the npm library.
 

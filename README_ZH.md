@@ -39,7 +39,7 @@ HmsAnalyticsKitDemo提供了华为分析服务（HUAWEI Analytics Kit）与微�
 2. 开启npm功能[[微信小程序npm支持]](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
 3. 执行以下命令安装依赖
     ```bash
-    npm install --save @hmscore/analytics-sdk-miniprogram
+    npm install --save @hw-hmscore/analytics-sdk-miniprogram
     ```
 4. 点击菜单栏 “工具 -> 构建NPM” 完成npm库的依赖
 

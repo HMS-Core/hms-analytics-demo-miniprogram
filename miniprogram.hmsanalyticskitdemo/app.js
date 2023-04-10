@@ -18,12 +18,12 @@
 //app.js
 import agconnect from '@agconnect/api';
 import '@agconnect/instance';
-import '@hmscore/analytics-sdk-miniprogram';
+import '@hw-hmscore/analytics-sdk-miniprogram';
 import { agconnectConfig } from './utils/HiAnalyticsConfig.js';
 
 
 App({
-  initAGConnect: function() {
+  initAGConnect: function () {
     agconnect.instance().configInstance(agconnectConfig);
     let analytics = agconnect.analytics();
 
@@ -31,7 +31,7 @@ App({
     this.globalData.agconnect = agconnect
   },
 
-  onLaunch: function() {
+  onLaunch: function () {
     this.initAGConnect();
 
     // 展示本地存储能力

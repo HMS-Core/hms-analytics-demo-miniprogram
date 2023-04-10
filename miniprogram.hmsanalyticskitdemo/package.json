@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "@hmscore/analytics-sdk-miniprogram": "^6.3.0-300"
+    "@hw-hmscore/analytics-sdk-miniprogram": "^6.9.9-300"
   },
   "devDependencies": {},
   "scripts": {
